@@ -1,0 +1,44 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chat app using graphql and mongodb ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run tsc",
+    "tsc": "tsc",
+    "local": "npm run tsc && cross-env NODE_ENV=local node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.10",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.11",
+    "@types/express-useragent": "^1.0.0",
+    "@types/express-validator": "^3.0.0",
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/mongoose": "^5.10.5",
+    "@types/stack-trace": "^0.0.29",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "express-jwt": "^6.0.0",
+    "express-useragent": "^1.0.15",
+    "express-validator": "^6.10.0",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.5",
+    "request": "^2.88.2",
+    "stack-trace": "0.0.10",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/express-jwt": "^6.0.1",
+    "@types/node": "^16.0.0"
+  }
+}
